@@ -1,0 +1,134 @@
+/* big tablet to 1200px (width smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px) { 
+    .section--1,
+    .reply--sect,
+    .reply--sec  { 
+        width: 43%;
+    }
+    .beat {
+        margin-left: -12%;
+    }
+    .username {
+        font-size: 13.5px;
+    }
+    .createdAt {
+         padding-left: 4px;    
+    }
+    .deleted {
+        padding-left: 3%;
+    }
+}
+/* big tablet to 1024px (width smaller than the 1140px row)*/
+@media only screen and (max-width: 1023px) { 
+    .section--1,
+    .reply--sect,
+    .reply--sec { 
+        width: 54%;
+    }
+    .beat {
+        margin-left: -12%;
+    }
+    .username {
+        font-size: 13px;
+    }
+    .createdAt {
+         padding-left: 4px;    
+    }
+    .deleted {
+        padding-left: 2%;
+    }
+    .delete {
+        padding-left: 5px; 
+    }
+    .list {
+        width: 20px;
+        margin-left: -2%;
+        padding: 5px 15px 5px 5px; 
+    }
+    .lis {
+        padding-top: 6px;
+    }
+    .content,
+    .move  {  
+        padding-left: 30px;
+    }
+}
+
+/* big tablet to 768px (width smaller than the 1140px row)*/
+@media only screen and (max-width: 767px) {
+    .section--1,
+    .reply--sect,
+    .reply--sec { 
+        width: 68%;
+        padding: 50px 20px 30px 20px;
+    }
+    .beat {
+        margin-left: 3%;
+    }
+    .createdAt {
+        padding-left: 7px;
+    }
+    .you {
+        padding: 5px 5px 5px 3px;
+    }
+    .list,
+    .hmm,
+    .normal {
+      display: none;
+    }
+    .mobile {
+        display: inline-block;
+    }
+    .space {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+        padding: 0 1rem;
+    }
+    .lists {
+        display: inline-block;
+        padding: 2px 12px 2px 2px; 
+        border: 1mm solid hsl(223, 19%, 93%);
+        background-color: hsl(223, 19%, 93%);
+        border-radius: 2mm;
+    }
+    .lis {
+        padding-top: 5px;
+    }
+    .username {
+        font-size: 12px;
+    }
+    .content,
+    .move  { 
+        margin-top: 1%; 
+        padding-left: 1px;
+        width: 100%;
+    }
+    .createdAt {
+        padding-left: 4px;    
+   }
+   .deleted {
+       padding-left: 2%;
+   }
+   .delete {
+       padding-left: 5px; 
+   }
+ 
+
+}
+
+@media only screen and (max-width: 480px) {
+    .section--1,
+    .reply--sect,
+    .reply--sec { 
+        width: 95%;
+        padding: 50px 20px 30px 20px;
+    }
+    .space {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+        padding: 0 1rem;
+    }
+
+ }

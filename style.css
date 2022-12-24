@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    background-color: #f3f3f3;
+    height: 150vh;
+    padding: 2rem;
+}
+.section--1 {
+    border: 1mm solid hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 2mm; 
+    padding: 20px 0px 10px 10px;
+    width: 38%;
+    margin-top: 1%;
+}
+.space {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 0 3rem;
+}
+.shit,
+.mobile {
+    display: none;
+}
+.list {
+    list-style: none;
+    border: 1mm solid hsl(223, 19%, 93%);
+    background-color: hsl(223, 19%, 93%);
+    border-radius: 2mm;
+    justify-content: space-between;
+    width: 25px;
+    margin-left: -1%;
+    padding: 5px 20px 5px 5px; 
+}
+.nav__item {
+    margin-left: 2rem;
+    display: inline-block;
+  }
+.lists{
+    display: none;
+}   
+
+.lis {
+    padding-top: 8px;
+    font-size: 12px;
+    color: hsl(238, 40%, 52%);
+}
+.lis:active,
+.lis:hover {
+    color: hsl(238, 40%, 52%);
+}
+.move {
+    margin-top: -18%;
+    padding-left: 40px;
+}
+.picname {
+    width: 40px;
+}
+.username {
+    font-size: 14px;
+  font-style: normal;
+  color: hsl(224, 21%, 14%);
+}
+.beat {
+    margin-left: -15%;
+}
+.content {
+    line-height: 150%;
+    font-size: larger;   
+    color:  hsl(211, 10%, 45%);
+    width: 92%;
+    padding-left: 40px;
+    margin-top: 2%;
+}
+.reply,
+.edit {
+    font-size: larger;
+    font-style: normal;
+    padding-left: 5px;
+    color: hsl(212, 24%, 26%);
+}
+.edit:active,
+.edit:hover,
+.reply:active,
+.reply:hover {
+    color: hsl(357, 100%, 86%);
+}
+.createdAt {
+    font-size: larger;
+    font-style: normal;
+    padding-left: 5px;
+    color: hsl(212, 24%, 26%);
+}
+.line {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 2%;
+    border: 0.5mm solid hsl(223, 19%, 93%);
+    background-color: hsl(223, 19%, 93%);
+    height: 250px;
+    width: 0px;
+}
+.third {
+    margin-left: 10%;
+}
+.replyingTo {
+    color: hsl(212, 24%, 26%);
+    text-decoration: none;
+    font-weight: 800;
+}
+.reply--sec,
+.reply--sect {
+    border: 1mm solid hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 2mm; 
+    padding: 20px 0px 10px 10px;
+    width: 38%;
+    margin-top: 0.5%;  
+}
+.moved {
+  margin-left: -5%;
+}
+.comment__reply,
+.comment__send {
+    padding: 8px 20px 8px 15px;
+    background-color: hsl(238, 40%, 52%);
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    border-radius: 2mm;
+    font-size: larger;
+}
+.comment__send:active,
+.comment__send:hover,
+.comment__reply:active,
+.comment__reply:hover {
+    background-color: hsl(223, 19%, 93%);
+}
+.comment__link {
+    padding-left: 5px;
+}
+.comment {
+    border: 0.5mm solid  hsl(212, 24%, 26%);
+    width: 70%;
+    padding: 30px 50px 20px 50px;    
+}
+.delete {
+    font-size: larger;
+    font-style: normal;
+    padding-left: 5px;
+    color: hsl(358, 79%, 66%);  
+}
+.delete:active,
+.delete:hover {
+    color: hsl(357, 100%, 86%);
+}
+.deleted {
+    padding-left: 15%;
+}
+.you {
+    font-style: normal;
+    font-size: larger;
+    padding: 8px 8px 8px 5px;
+    background-color: hsl(238, 40%, 52%);
+    color: hsl(0, 0%, 100%);
+}
+.real {
+    padding-left: 15%;
+}
+.hidden {
+    display: none;
+}
